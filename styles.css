@@ -1,0 +1,303 @@
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover{
+        border-bottom: 1px solid white;
+}
+
+
+.navbar-brand {
+    color:white !important;
+}
+
+
+.bg-transparent {
+    transition: all 1s ease;
+}
+
+.bg-black {
+    transition: all 1s ease;
+}
+
+.bg-blu {
+    background-color: #6f9eaf;
+    transition: all 1s ease;
+    opacity: .8 !important;
+}
+
+
+
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    background: #eeeeee !important;
+}
+
+.logo {
+
+    height: 50px;
+}
+
+.bg-black {
+    background-color:rgb(0, 0, 0, .7)
+  
+}
+
+.head {
+    z-index: 0 !important;
+    width: 100% !important;
+    height: 500px !important;
+    background-image: url(https://www.edesur.com.ar/wordpress/wp-content/uploads/2020/08/podas-motosierra.jpg) !important;
+    background-color: rgb(39, 38, 38) !important;
+    background-blend-mode: soft-light !important;  
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    object-fit: cover !important;
+    background-position: center center !important;
+}
+
+
+.head h1 {
+    padding-top: 15%;
+}
+
+.sbn {
+    padding-top: 30px;
+    
+    
+}
+
+.txt {
+    color: white;
+    padding: 10px;
+    text-transform: none !important;
+    text-decoration: none !important;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.txt:hover {
+    opacity: .7;
+    color: white;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid #c7753d !important;
+}
+
+#buttn {
+    padding-top: 0px;
+    font-size: 50px;
+    color: #c7753d;
+    opacity: .4;
+    text-align: center;
+    -webkit-transition: 1s ease 0s;
+}
+
+p {
+    font-size: .9em;
+}
+
+#nosotros {
+    margin-top: 50px;
+}
+
+#hacemos {
+    margin-top: 80px
+}
+
+.bg-green {
+    color: #2d5c2d;
+}
+
+.w-100 {
+    height: 500px !important;
+}
+
+.btt {
+    background-color:#c7753d;
+    color: white;
+    outline: none;
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+    text-decoration: none !important;
+    text-transform: none !important;
+}
+
+.btt {
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.btt:hover {
+    color: white;
+    opacity: .7;
+    background-color: #c06325;
+}
+
+#trabajos {
+    margin-top: 70px;
+}
+
+
+
+#faq {
+    margin-top: 80px;
+}
+
+li {
+    text-transform: none !important;
+    text-decoration: none !important;
+}
+
+
+.faqp {
+    font-size: 1.2em;
+    text-transform: none !important;
+    text-decoration: none !important;
+    color: black;
+}
+
+.faqp:hover {
+    color: #495464;
+}
+
+hr {
+    background: #495464 !important;
+}
+
+#contacto {
+    margin-top: 80px;
+}
+
+.sbm {
+    background-color:#c06325 !important;
+    padding: 5px;
+    color: white;
+    border: none;
+}
+
+.st {
+    margin-bottom:50px;
+}
+
+.sbm:hover {
+    opacity: .9;
+}
+
+#encontranos {
+    padding-top: 50px;
+}
+
+
+
+#footer {
+    margin-top:80px;
+    height: 200px;
+}
+
+.col {
+    text-transform: none !important;
+    text-decoration: none !important;
+    color: white;
+}
+
+.col:hover {
+    color: white;
+}
+
+
+.redes {
+    margin-top:100px !important;
+}  
+
+.ft {
+    margin:0px;
+    padding:0px;
+    font-size: 2em;
+}
+
+.argx {
+    color: crimson;
+}
+
+.argx:hover {
+    color: crimson;
+}
+
+.ft {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 23px;
+    right: 20px;
+    background-color: green;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+    padding: 5px;
+}
+
+
+.ft:hover {
+    color: green;
+    background-color: white;
+}
+
+.bg-stl {
+    background-color: rgb(0, 0, 0, .8);
+}
+
+.card-title {
+    color: black !important;
+}
+
+/*--------------------------------------------------------------
+# Gallery Section
+--------------------------------------------------------------*/
+#gallery {
+    padding: 60px;
+    overflow: hidden;
+  }
+  
+  #gallery .owl-nav, #gallery .owl-dots {
+    margin-top: 25px;
+    text-align: center;
+  }
+  
+  #gallery .owl-item {
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+  }
+  
+  #gallery .owl-dot {
+    display: inline-block;
+    margin: 0 5px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd;
+  }
+  
+  #gallery .owl-dot.active {
+    background-color: #f82249;
+  }
+  
+  #gallery .gallery-carousel .owl-stage-outer {
+    overflow: visible;
+  }
+  
+  #gallery .gallery-carousel .center {
+    border: 6px solid #f82249;
+    margin: -10px;
+    box-sizing: content-box;
+    padding: 4px;
+    background: #fff;
+    z-index: 1;
+  }
+  
